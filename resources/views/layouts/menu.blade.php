@@ -78,7 +78,7 @@
                                 </a>
                                 <ul>
                                     <li>
-                                        <a href="company_overview.html"><span>Abour of Our Company</span></a>
+                                        <a href="{{ route('about.index') }}"><span>Abour of Our Company</span></a>
                                     </li>
 
                                     <li>
@@ -88,7 +88,7 @@
                             </li>
 
                             <li class="parent">
-                                <a href="{{ route('home') }}">
+                                <a href="{{ route('services.index') }}">
                                     <span>
                                         Our Services
                                     </span>
