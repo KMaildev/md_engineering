@@ -24,28 +24,26 @@
         </div>
     </div>
 
-    <div class="   ">
-        <div class="container">
-            <div class="row">
-                @foreach ($activities as $activity)
-                    <div class="col-md-12">
-                        <hr style="border-top: 1px dashed red;">
-                        <p style="font-size: 20px;">
-                            {{ $activity->title ?? '' }}
-                        </p>
+    <div class="container">
+        <div class="row">
+            @foreach ($activities as $activity)
+                <div class="col-md-12">
+                    <hr style="border-top: 1px dashed red;">
+                    <p style="font-size: 20px;">
+                        {{ $activity->title ?? '' }}
+                    </p>
+                </div>
+                @php
+                    $images = explode(',', $activity->images);
+                @endphp
+                @foreach ($images as $image)
+                    <div class="col-md-3" style="padding: 5px;">
+                        <img src="{{ $image }}" alt=""
+                            style="width: 100%; height: 250px; background-size: center; object-fit: cover; border-radius: 30px;">
                     </div>
-                    @php
-                        $images = explode(',', $activity->images);
-                    @endphp
-                    @foreach ($images as $image)
-                        <div class="col-md-3" style="padding: 5px;">
-                            <img src="{{ $image }}" alt=""
-                                style="width: 100%; height: 250px; background-size: center; object-fit: cover; border-radius: 30px;">
-                        </div>
-                    @endforeach
                 @endforeach
-            </div>
-            <!--end row -->
+            @endforeach
         </div>
+        <!--end row -->
     </div>
 @endsection

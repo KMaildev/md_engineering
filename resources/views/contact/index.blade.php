@@ -44,7 +44,7 @@
                 <div class="col-md-4 col-sm-4">
                     <div class="icon_classes last">
                         <h5><i class="icofont icofont-envelope"></i>Email Us</h5>
-                        <p><a href="mailto:info@engineering.com">info@engineering.com</a></p>
+                        <p><a href="mailto:info@myanmarduo.com">info@myanmarduo.com</a></p>
                         <p><a href="mailto:myanmarduo@gmail.com">myanmarduo@gmail.com</a></p>
                     </div>
                 </div>

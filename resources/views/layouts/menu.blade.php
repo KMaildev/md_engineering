@@ -17,8 +17,8 @@
                                 <div class="text">
                                     <h5>EMAIL US AT</h5>
                                     <h6>
-                                        <a href="mailto:info@engineering.com">
-                                            info@engineering.com
+                                        <a href="mailto:info@myanmarduo.com">
+                                            info@myanmarduo.com
                                         </a>
                                     </h6>
                                 </div>
@@ -41,16 +41,16 @@
         </div>
     </div>
 
-    <div class="tt-header">
-        <div class="container">
+    <div class="tt-header" style="background-color: white">
+        <div class="container" >
             <div class="top-inner clearfix">
-                <div class="logo pull-left main-logo">
+
+                <div class="logo pull-left main-logo" style="height: auto;">
                     <a href="{{ route('home') }}">
                         <img src="{{ asset('data/logo.jpg') }}" class="img-responsive" alt=""
-                            style="width: 100px;">
+                            style="width: 100px; height: auto;">
                     </a>
                 </div>
-
 
                 <div class="cmn-toggle-switch">
                     <span></span>
@@ -82,7 +82,7 @@
                                     </li>
 
                                     <li>
-                                        <a href="company_history.html"><span>Team Member</span></a>
+                                        <a href="{{ route('team.index') }}"><span>Team Member</span></a>
                                     </li>
                                 </ul>
                             </li>

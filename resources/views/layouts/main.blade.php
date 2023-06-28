@@ -30,100 +30,91 @@
 
         @yield('content')
 
-        <footer class="footer_01">
+
+        <br><br>
+        <div class="footer_strip footer_strip_02">
             <div class="container">
                 <div class="row">
-                    <div class="footer_top">
-                        <div class="col-md-4">
-                            <h4 class="sub-title">Recent Post</h4>
-                            <div class="recent_posts">
-                                <div class="row">
-                                    <div class="col-md-3 col-sm-2  col-xs-3 image">
-                                        <img src="{{ asset('assets/images/home1/r1.jpg') }}" class="img-responsive"
-                                            alt="">
-                                    </div>
-                                    <div class="col-md-9 col-sm-10 col-xs-9 text">
-                                        <h5>Interior Design</h5>
-                                        <h6>23-Mar-2020</h6>
-                                        <div class="simple-text">
-                                            <p>Vivamus ac ultrices diam, vitae accumsan tellus.</p>
-                                            <p><a href="#">Read Post <i class="icofont icofont-rounded-right"></i>
-                                                </a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="recent_posts">
-                                <div class="row">
-                                    <div class="col-md-3 col-sm-2  col-xs-3 image">
-                                        <img src="{{ asset('assets/images/home1/r2.jpg') }}" class="img-responsive"
-                                            alt="">
-                                    </div>
-                                    <div class="col-md-9 col-sm-10 col-xs-9 text">
-                                        <h5>Home Repairing</h5>
-                                        <h6>05-Feb-2020</h6>
-                                        <div class="simple-text">
-                                            <p>Vivamus ac ultrices diam, vitae accumsan tellus.</p>
-                                            <p><a href="#">Read Post <i class="icofont icofont-rounded-right"></i>
-                                                </a></p>
-                                        </div>
-                                    </div>
-                                </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12" style="background-color: white">
+                        <div class="footer_main"
+                            style="background-color: white; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                            <img src="{{ asset('data/logo.jpg') }}" class="img-responsive" alt="Footer Logo"
+                                style="width: 50%;">
+                            <div class="simple-text">
+                                <p style="color: black">
+                                    We promote environmentally responsible practices and sustainable construction
+                                    methods.
+                                </p>
                             </div>
                         </div>
-                        <div class="col-md-4 instagram_images">
-                            <h4 class="sub-title">From Instagram</h4>
-                            <ul>
-                                <li><img src="{{ asset('assets/images/home1/i1.jpg') }}" alt="Image 1"></li>
-                                <li><img src="{{ asset('assets/images/home1/i2.jpg') }}" alt="Image 2"></li>
-                                <li><img src="{{ asset('assets/images/home1/i3.jpg') }}" alt="Image 3"></li>
-                                <li><img src="{{ asset('assets/images/home1/i4.jpg') }}" alt="Image 4"></li>
-                                <li><img src="{{ asset('assets/images/home1/i5.jpg') }}" alt="Image 5"></li>
-                                <li><img src="{{ asset('assets/images/home1/i6.jpg') }}" alt="Image 6"></li>
-                                <li><img src="{{ asset('assets/images/home1/i7.jpg') }}" alt="Image 7"></li>
-                                <li><img src="{{ asset('assets/images/home1/i8.jpg') }}" alt="Image 8"></li>
-                                <li><img src="{{ asset('assets/images/home1/i9.jpg') }}" alt="Image 9"></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="subscribe">
-                                <h4 class="sub-title">Subscribe Now</h4>
-                                <form>
-                                    <div class="subscribe_now">
-                                        <input type="text" placeholder="Enter Email Address" required>
-                                        <button type="submit" class="">Get Started</button>
-                                    </div>
-                                </form>
+                    </div>
+
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <div class="footer_one">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <h4 class="sub-title"><i class="icofont icofont-home"></i>Visit Us</h4>
+                                <p>
+                                    No.41B Corner of Tha Khin Ba Hein Street & Tun Thiri Street Ward 30 North Dagon
+                                    Township Yangon
+                                </p>
                             </div>
-                            <div class="clearfix"></div>
-                            <div class="popular_tags">
-                                <h4 class="sub-title">Popular Tags</h4>
-                                <ul>
-                                    <li><a href="#">Outstanding</a></li>
-                                    <li><a href="#">Lifestyle</a></li>
-                                    <li><a href="#">Bridge</a></li>
-                                    <li><a href="#">Mechanical</a></li>
-                                    <li><a href="#">Repair</a></li>
-                                    <li><a href="#">Wireframe</a></li>
-                                </ul>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <h4 class="sub-title"><i class="icofont icofont-phone"></i> Call Us</h4>
+                                <p>
+                                    09 790 790090
+                                </p>
+                                <br>
+
+                                <h4 class="sub-title"><i class="icofont icofont-envelope"></i> Email Us</h4>
+                                <p><a href="mailto:info@myanmarduo.com">info@myanmarduo.com</a></p>
+                                <p><a href="mailto:myanmarduo@gmail.com">myanmarduo@gmail.com</a></p>
+                            </div>
+
+                            <div class="col-md-4 col-sm-12 col-xs-12">
+                                <h4 class="sub-title"><i class="icofont icofont-fb"></i> Facebook</h4>
+                                <div id="fb-root"></div>
+                                <script async defer crossorigin="anonymous"
+                                    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0&appId=210045094312905&autoLogAppEvents=1"
+                                    nonce="PosYNXjc"></script>
+
+                                <div class="fb-page" data-href="https://www.facebook.com/md.engineering.construction"
+                                    data-tabs="timeline" data-width="" data-height="250" data-small-header="false"
+                                    data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                                    <blockquote cite="https://www.facebook.com/md.engineering.construction"
+                                        class="fb-xfbml-parse-ignore"><a
+                                            href="https://www.facebook.com/md.engineering.construction">Facebook</a>
+                                    </blockquote>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <footer class="footer_01">
+            <div class="container">
                 <div class="footer_bottom">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="copyright">
-                                <p>Designed by <span><a href="https://themeforest.net/user/themechampion">ThemeChampion
-                                        </a></span>© 2020 All Rights Reserved.</p>
+                                <p>
+                                    Copyright © {{ now()->year }}
+                                    <span>
+                                        MD Engineering & Construction Co.,Ltd.
+                                    </span>
+                                    All Rights Reserved
+                                    <span>
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="links">
                                 <ul>
-                                    <li><a href="#">About Us </a></li>
-                                    <li><a href="#"> Privacy Policy </a></li>
-                                    <li class="last"><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="{{ route('about.index') }}">About Us </a></li>
+                                    <li><a href="{{ route('activities.index') }}"> Activities </a></li>
+                                    <li class="last"><a href="{{ route('project.index') }}">Projects</a></li>
                                 </ul>
                             </div>
                         </div>

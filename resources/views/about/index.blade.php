@@ -180,10 +180,9 @@
 
 
 
-
     <div class="our_spacility">
         <div class="img_2">
-            <img src="assets/images/about/left_img.jpg" class="img-responsive" alt="Image 1">
+            <img src="{{ asset('data/statement.jpg') }}" class="img-responsive" alt="Image 1">
         </div>
         <div class="container-fluid padding_0">
             <div class="row">
@@ -231,15 +230,10 @@
                                         Quality: We are committed to delivering exceptional craftsmanship and attention
                                         to detail in every project.
                                         <br><br>
-                                        Integrity: We conduct ourselves with honesty, transparency, and ethical practices.
-                                        <br><br>
                                         Collaboration: We foster teamwork and open communication with clients, partners, and
                                         stakeholders.
                                         <br><br>
                                         Safety: We prioritize the safety of our workers, clients, and the community.
-                                        <br><br>
-                                        Sustainability: We promote environmentally responsible practices and sustainable
-                                        construction methods.
                                         <br><br>
                                         Client Focus: We listen to our clients, understand their vision, and strive to
                                         exceed their expectations.
